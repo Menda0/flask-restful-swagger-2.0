@@ -213,8 +213,8 @@ class _RequestParserExtractorImpl(_BaseExtractorImpl):
         return self._extract_with_reqparser(self._operation)
 
     def _extract_with_reqparser(self, operation):
-        if 'parameters' in operation:
-            raise ValidationError('parameters and reqparser can\'t be in same spec')
+        # if 'parameters' in operation:
+        #     raise ValidationError('parameters and reqparser can\'t be in same spec')
         # we need to pass copy because 'reqparser' will be deleted
         operation = self._get_reqparse_args(operation.copy())
         return self._extract_schemas(operation)
@@ -255,7 +255,7 @@ class _RequestParserExtractorImpl(_BaseExtractorImpl):
                 'schema': model,
                 'required': model.is_required()
             })
-        operation['parameters'] = params
+        operation['parameters'] = operation['parameters'] + params
         return operation
 
     @staticmethod
