@@ -1,3 +1,6 @@
 nose
 flask
 Flask-RESTful
+setuptools
+wheel
+twine

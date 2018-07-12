@@ -4,7 +4,7 @@ import json
 from flask import Flask
 from flask_restful.reqparse import RequestParser
 
-from flask_restful_swagger_2 import Api, Resource, Schema, swagger
+from betacode_flask_restful_swagger_2 import Api, Resource, Schema, swagger
 
 
 class UserModel(Schema):

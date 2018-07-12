@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from flask_restful_swagger_2 import Api, swagger, Resource
+from betacode_flask_restful_swagger_2 import Api, swagger, Resource
 
 from models import UserModel, ErrorModel
 

@@ -6,13 +6,13 @@ except ImportError:
 with open('README') as file:
     long_description = file.read()
 
-setup(name='flask-restful-swagger-2',
-      version='0.36',
+setup(name='betacode-flask-restful-swagger-2',
+      version='0.37',
       url='https://github.com/swege/flask-restful-swagger-2.0',
       zip_safe=False,
-      packages=['flask_restful_swagger_2'],
+      packages=['betacode_flask_restful_swagger_2'],
       package_data={
-        'flask_restful_swagger_2': [
+        'betacode_flask_restful_swagger_2': [
         ]
       },
       description='Extract swagger specs from your flask-restful project. Project based on flask-restful-swagger by Ran Tavory.',

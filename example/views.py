@@ -1,7 +1,7 @@
 from flask import request
 from flask_restful.reqparse import RequestParser
 
-from flask_restful_swagger_2 import swagger, Resource
+from betacode_flask_restful_swagger_2 import swagger, Resource
 
 from models import UserModel, ErrorModel
 

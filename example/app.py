@@ -4,7 +4,7 @@
 
 from flask import Flask
 from flask_cors import CORS
-from flask_restful_swagger_2 import Api, swagger
+from betacode_flask_restful_swagger_2 import Api, swagger
 
 from views import UserResource, UserItemResource, GroupResource
 

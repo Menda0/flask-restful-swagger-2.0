@@ -2,8 +2,8 @@ import unittest
 
 from flask_restful import inputs
 
-import flask_restful_swagger_2.swagger as swagger
-from flask_restful_swagger_2 import Schema
+import betacode_flask_restful_swagger_2.swagger as swagger
+from betacode_flask_restful_swagger_2 import Schema
 
 
 class TestModel(Schema):
